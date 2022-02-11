@@ -28,6 +28,10 @@ python PCT/main.py --exp_name=test --num_points=1024 --use_sgd=True --eval_corru
 ```shell
 python GDANet/main_cls.py --eval_corrupt=True --model_path pretrained_models/GDANet.t7
 ```
+- PAConv
+```shell
+python PAConv/obj_cls/main.py --config PAConv/obj_cls/config/dgcnn_paconv_test.yaml --model_path ../pcdrobustness/pretrained_models/PAConv.t7 --eval_corrupt True
+```
 - CurveNet
 ```shell
 python3 CurveNet/core/main_cls.py --exp_name=test --eval_corrupt=True --model_path pretrained_models/CurveNet.t7
