@@ -40,6 +40,8 @@ def eval_corrupt_wrapper(model, fn_test_corrupt, args_test_corrupt):
             else:
                 split = corruption_type + '_' + str(level)
             test_perf = fn_test_corrupt(split=split, model=model, **args_test_corrupt)
+            if not isinstance(test_perf, dict):
+                test_perf = {'acc': test_perf}
             perf_corrupt['OA'].append(test_perf['acc'])
             test_perf['corruption'] = corruption_type
             if corruption_type != 'clean':
