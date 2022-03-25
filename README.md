@@ -51,6 +51,11 @@ Alternatively, you may download [pretrained models](https://drive.google.com/fil
 ### Evaluation Commands
 Evaluation commands are provided in [EVALUATE.md](./EVALUATE.md).
 
+### Customize ModelNet-C Evaluation for Your Codebase
+We have provided evaluation utilities to help you evaluate on ModelNet-C using your own codebase. 
+Please follow [CUSTOMIZE.md](./CUSTOMIZE.md).
+
+
 ### Benchmark Results
 
 | Method          | Reference                                                  | Standalone |  mCE  | Clean OA |
