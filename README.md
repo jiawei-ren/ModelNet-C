@@ -1,4 +1,6 @@
-# ModelNet-C
+# ModelNet-C (now part of [PointCloud-C](https://github.com/ldkong1205/PointCloud-C))
+
+:warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!
 
 Code for the paper "Benchmarking and Analyzing Point Cloud Classification under Corruptions". For the latest updates, see: [sites.google.com/view/modelnetc/home](https://sites.google.com/view/modelnetc/home)
 
@@ -10,6 +12,8 @@ arXiv 2022
 <img src="figs/corruptions.png" alt="corruptions" width="400"/>
 
 **ModelNet-C** [[Download Link]](https://drive.google.com/file/d/1KE6MmXMtfu_mgxg4qLPdEwVD5As8B0rm/view?usp=sharing)
+
+
 
 ## Get Started
 
