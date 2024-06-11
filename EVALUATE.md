@@ -30,7 +30,7 @@ python GDANet/main_cls.py --eval_corrupt=True --model_path pretrained_models/GDA
 ```
 - PAConv
 ```shell
-python PAConv/obj_cls/main.py --config PAConv/obj_cls/config/dgcnn_paconv_test.yaml --model_path ../pcdrobustness/pretrained_models/PAConv.t7 --eval_corrupt True
+python PAConv/obj_cls/main.py --config PAConv/obj_cls/config/dgcnn_paconv_test.yaml --model_path pretrained_models/PAConv.t7 --eval_corrupt True
 ```
 - CurveNet
 ```shell
